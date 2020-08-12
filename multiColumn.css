@@ -1,0 +1,500 @@
+body{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.header{
+  margin: 0px;
+  text-align: center;
+  background-color: #545454;
+
+}
+
+.header img{
+  width: 75%;
+  text-align: center;
+}
+
+
+.glovalNavigation{
+
+  background-color: rgba(29, 29, 29, 0.932);
+  height: 50px;
+  text-align: center;
+ 
+}
+main{
+  display: flex;
+  min-height: auto;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  
+}
+.content{
+  flex: 1;
+  background-color: white;
+  text-align: center;
+  margin-right: 20px;
+  
+  
+ 
+
+}
+.localNavigation{
+  text-align: center;
+  background-color:white;
+
+ 
+  width: 300px;
+}
+.footer{
+  height: 70px;
+  text-align: center;
+  background-color: white;
+}
+
+.gazo img {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  150px;       /* ※縦横を同値に */
+  height: 150px;       /* ※縦横を同値に */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.box1 {
+  border: solid 1px rgb(206, 206, 206);
+  height:340px;
+}
+.box1 p {
+  margin-top: 20px; 
+  font-size: 14px;
+  margin-bottom:  20px;
+  font-weight: 100;
+}
+
+.box1 p1 {
+  margin-top: 20px; 
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+
+nav ul{
+  display: table;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+ margin-left: auto;
+}
+nav li{
+  display: table-cell;
+  min-width: 50px;
+}
+nav a{
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 5px;
+  }
+nav li.current{
+  border-bottom: 3px solid #62c1ce;
+}
+nav li:hover{
+  color: #c4eb68;
+  border-bottom: 3px solid hsl(188, 46%, 73%);
+}
+
+
+.fade{
+
+  animation: fadeIn 4s ease  1 normal;
+  
+}
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+
+  0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  
+  100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+  
+}
+
+.sample-text1 {
+  font-size: 20px;
+  font-weight: bold;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  opacity: 0; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein  {
+ from {
+  
+  transform: translateY(20px);
+    }
+   to {
+  opacity: 1;
+  transform: translateY(0);
+} 
+}
+
+.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #000000;
+}
+.cp_hr01 {
+	border-width: 15px 0 0 0;
+	border-style: solid;
+	border-color: rgb(206, 206, 206);
+}
+
+
+
+
+.box27 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #62c1ce;
+  text-align:left;
+  width:300px;
+  margin-top:50px;
+  
+}
+
+.box27 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -27px;
+  left: -3px;
+  padding: 0 9px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 1vw;
+  background: #62c1ce;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.box27 p {
+  margin:0;
+  padding: 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+h3{
+  font-size: 17px;
+  padding-top: 10px;
+  line-height:2em;
+  font-weight: 100;
+  
+}
+
+h2{
+  font-size: 15px;
+  padding-top: 20px;
+  line-height:40px;
+  font-weight: lighter;
+  }
+
+.bun{
+  text-align: left;
+}
+
+.box10 {
+  padding: 0.5em 1em;
+ 
+  font-weight: bold;
+  border: solid 1px rgb(206, 206, 206);
+}
+
+.ki{
+
+  background:linear-gradient(transparent 60%, #ff6 60%);
+  
+}
+
+
+
+.text-box4 {
+  color: #fff;
+  background: #47a89c;
+  padding: 10px;
+  border: 2px dashed rgba(255,255,255,0.5);
+  border-radius: 6px;
+  box-shadow: 0 0 0 5px #47a89c, 0 2px 3px 5px rgba(0,0,0,0.5);
+  margin-top: 50px;
+  font-size: 1.3vw;
+}
+
+h4 {
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.9vw;
+  font-weight: 100;
+}
+
+h5{
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.fac{
+    font-size: 20px;
+    padding: 5px;
+    color: #2c1470;
+    font-weight:bold;
+
+}
+.kan{
+    color: #fc0d1c;
+    font-size: 20px;
+    padding: 5px;
+    font-weight:bold;
+}
+.box20{
+  padding: 0.5em 1em;
+  margin: 3em 0;
+  color: #474747;
+  background: whitesmoke;/*背景色*/
+  border-left: double 7px #4ec4d3;/*左線*/
+  border-right: double 7px #4ec4d3;/*右線*/
+}
+.box20 p {
+  margin: 0;
+ 
+  padding: 0;
+  
+  font-weight: bold;
+  font-size: large;
+}
+
+.frame-box-002 {
+	padding: 30px;
+  position: relative;
+  margin-top:20px;
+  
+}
+
+.frame-box-002::before, .frame-box-002::after {
+	content: '';
+	width: 15px;
+	height: 100%;
+	position: absolute;
+}
+
+.frame-box-002::before {
+	border-left: dotted 1px #000000;
+	border-top: dotted 1px #000000;
+	border-bottom: dotted 1px #000000;
+	top: 0;
+	left: 0;
+}
+
+.frame-box-002::after {
+	border-right: dotted 1px #000000;
+	border-top: dotted 1px #000000;
+	border-bottom: dotted 1px #000000;
+	top: 0;
+	right: 0;
+}
+
+.img01 img{
+  
+ border: 1px solid #b4b4b4;
+ margin-left: 20px;
+
+}
+
+
+
+.gaz{
+  display: flex;
+}
+
+
+ul.check li{
+	list-style:none;
+  padding-left:24px;
+  
+	position: relative;
+}
+ul.check li:before,
+ul.check li:after{
+	content:"";
+	display:block;
+	position:absolute;
+}
+ul.check li:before{
+	width:16px;
+  height:16px;
+  margin-top: 9px;
+	border-radius:8px;
+	background:#8CC4D9;
+	left:0;top:2px;
+}
+ul.check li:after{
+	border-left:2px solid #fff;
+	border-bottom:2px solid #fff;
+	width:6px;
+	height:3px;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	left:4px;
+  top:6px;
+  margin-top: 9px;
+}
+
+.niho{
+  font-weight:bold;
+  font-size: 15px;
+}
+
+.ine{
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+
+.un{
+  font-weight: bold;
+  font-size:
+  
+  15px;
+}
+
+
+.yu {
+  padding: 0.20em 0.5em;/*上下 左右の余白*/
+  color: #b91313;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7c7777;/*左線*/
+  font-size: 20px;
+}
+
+.movie-wrap {
+  position: relative;
+  padding-bottom: 56%; /*アスペクト比 16:9の場合の縦幅*/
+  height: 0;
+
+  
+}
+
+.movie-wrap iframe {
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  
+  
+}
+
+.yout{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.in {
+  padding: 0.20em 0.5em;/*上下 左右の余白*/
+  color: #b91313;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7c7777;/*左線*/
+  font-size: 20px;
+}
+
+.insta_btn2{/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.insta_btn2:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+.insta_btn2 .fa-instagram{/*アイコン*/
+  font-size: 35px;/*アイコンサイズ*/
+  position: relative;
+  top: 4px;/*アイコン位置の微調整*/
+}
+
+.insta_btn2 span {/*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s
+}
+
+.insta_btn2:hover span{/*ホバーで一周回転*/
+  -webkit-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+
+.iii{
+  text-align: right;
+  width: 100;
+}
+
+.css-fade4 {
+  
+  animation-name: fade-in4;
+  animation-duration: 3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0; 
+  animation-iteration-count: 1; 
+  animation-direction: normal; 
+  animation-fill-mode: forwards; 
+}
+
+@keyframes fade-in4 {
+  0% {
+    opacity: 0;
+    transform: translate3d(30px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.glovalNavigation p{
+ color: rgba(255, 255, 255, 0.753);
+
+ font-weight: 100;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+}
+
